@@ -3,9 +3,9 @@ name: generate bullshit
 on:
   push:
     branches:
-      - master
+      - main
   schedule:
-    - cron: "53 11 * * *"
+    - cron: "54 11 * * *"
 
 jobs:
   autogreen:
