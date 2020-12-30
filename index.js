@@ -5,7 +5,7 @@ const titleList = require('./title.json');
 
 const title = titleList[Math.floor(Math.random() * titleList.length)];
 
-let article = new bullshit().生成(title);
+let article = new bullshit().生成(title).split('\n').map(line => line.trim()).join('\n\n');
 
 console.log(title, article);
 
