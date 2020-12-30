@@ -1,0 +1,24 @@
+{
+  "name": "bullshit-everyday",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zombieJ/bullshit-everyday.git"
+  },
+  "author": "zombiej",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zombieJ/bullshit-everyday/issues"
+  },
+  "homepage": "https://github.com/zombieJ/bullshit-everyday#readme",
+  "devDependencies": {
+    "@lwys-pkg-releaser/node-bullshit-generator": "^1.0.5",
+    "dayjs": "^1.9.8",
+    "fs-extra": "^9.0.1"
+  }
+}
